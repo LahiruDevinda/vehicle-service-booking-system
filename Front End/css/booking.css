@@ -1,0 +1,71 @@
+.page-header { 
+
+    background-color: #f5f8ff; 
+
+ 
+
+    padding: 50px 0 55px; 
+
+} 
+
+ 
+
+.breadcrumb { 
+
+    display: flex; 
+
+    align-items: center; 
+
+ 
+
+    gap: 10px; 
+
+ 
+
+    font-size: 13px; 
+
+ 
+
+    color: #7b8493; 
+
+ 
+
+    margin-bottom: 18px; 
+
+} 
+
+ 
+
+.breadcrumb a { 
+
+    color: #1769ff; 
+
+} 
+
+ 
+
+.page-header h1 { 
+
+    font-size: 40px; 
+
+ 
+
+    line-height: 1.2; 
+
+ 
+
+    margin-bottom: 10px; 
+
+} 
+
+ 
+
+.page-header p { 
+
+    color: #707b8c; 
+
+ 
+
+    font-size: 15px; 
+
+} 
