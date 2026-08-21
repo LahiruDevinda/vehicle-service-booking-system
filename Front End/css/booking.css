@@ -1,9 +1,6 @@
 .page-header {
 
     background-color: #f5f8ff;
-
-
-
     padding: 50px 0 55px;
 
 }
@@ -13,23 +10,10 @@
 .breadcrumb {
 
     display: flex;
-
     align-items: center;
-
-
-
     gap: 10px;
-
-
-
     font-size: 13px;
-
-
-
     color: #7b8493;
-
-
-
     margin-bottom: 18px;
 
 }
@@ -47,13 +31,7 @@
 .page-header h1 {
 
     font-size: 40px;
-
-
-
     line-height: 1.2;
-
-
-
     margin-bottom: 10px;
 
 }
@@ -63,9 +41,6 @@
 .page-header p {
 
     color: #707b8c;
-
-
-
     font-size: 15px;
 
 }
@@ -82,17 +57,8 @@
 .booking-layout { 
 
     display: grid; 
-
- 
-
     grid-template-columns: 1.55fr 0.8fr; 
-
- 
-
     gap: 40px; 
-
- 
-
     align-items: start; 
 
 } 
@@ -101,17 +67,8 @@
 .booking-form-card { 
 
     border: 1px solid #e4e8ef; 
-
- 
-
     border-radius: 14px; 
-
- 
-
     padding: 35px; 
-
- 
-
     background-color: #ffffff; 
 
 } 
@@ -121,13 +78,7 @@
 .form-header { 
 
     padding-bottom: 28px; 
-
- 
-
     border-bottom: 1px solid #eeeeee; 
-
- 
-
     margin-bottom: 28px; 
 
 } 
@@ -137,17 +88,8 @@
 .section-tag { 
 
     color: #1769ff; 
-
- 
-
     font-size: 11px; 
-
- 
-
-    font-weight: 800; 
-
- 
-
+    font-weight: 800;
     letter-spacing: 1.5px; 
 
 } 
@@ -157,9 +99,6 @@
 .form-header h2 { 
 
     font-size: 26px; 
-
- 
-
     margin: 7px 0 7px; 
 
 } 
@@ -169,9 +108,6 @@
 .form-header p { 
 
     color: #7a8493; 
-
- 
-
     font-size: 13px; 
 
 }
@@ -181,13 +117,7 @@
 .form-section { 
 
     padding-bottom: 30px; 
-
- 
-
     margin-bottom: 30px; 
-
- 
-
     border-bottom: 1px solid #eeeeee; 
 
 } 
@@ -197,13 +127,7 @@
 .form-section h3 { 
 
     font-size: 17px; 
-
- 
-
     margin-bottom: 22px; 
-
- 
-
     color: #172033; 
 
 } 
@@ -213,13 +137,7 @@
 .form-grid { 
 
     display: grid; 
-
- 
-
     grid-template-columns: 1fr 1fr; 
-
- 
-
     gap: 20px; 
 
 } 
@@ -229,13 +147,7 @@
 .form-group { 
 
     display: flex; 
-
- 
-
     flex-direction: column; 
-
- 
-
     gap: 7px; 
 
 } 
@@ -253,13 +165,7 @@
 .form-group label { 
 
     font-size: 13px; 
-
- 
-
     font-weight: 700; 
-
- 
-
     color: #384357; 
 
 } 
@@ -281,37 +187,16 @@
 .form-group textarea { 
 
     width: 100%; 
-
- 
-
     border: 1px solid #dce1e9; 
-
- 
-
     border-radius: 7px; 
-
- 
-
     padding: 12px 13px; 
-
- 
-
     outline: none; 
 
  
 
     background-color: #ffffff; 
-
- 
-
     color: #172033; 
-
- 
-
     font-size: 13px; 
-
- 
-
     transition: 0.2s; 
 
 } 
@@ -331,9 +216,6 @@
 .form-group textarea { 
 
     resize: vertical; 
-
- 
-
     min-height: 100px; 
 
 } 
@@ -357,9 +239,6 @@
 .form-group textarea:focus { 
 
     border-color: #1769ff; 
-
- 
-
     box-shadow: 0 0 0 3px rgba(23, 105, 255, 0.08); 
 
 }
@@ -377,17 +256,8 @@
 .checkbox-container { 
 
     display: flex; 
-
- 
-
-    align-items: flex-start; 
-
- 
-
+    align-items: flex-start;
     gap: 10px; 
-
- 
-
     cursor: pointer; 
 
 } 
@@ -397,19 +267,9 @@
 .checkbox-container input { 
 
     width: 17px; 
-
     height: 17px; 
-
- 
-
     margin-top: 2px; 
-
- 
-
     accent-color: #1769ff; 
-
- 
-
     cursor: pointer; 
 
 } 
@@ -419,13 +279,7 @@
 .terms-text { 
 
     color: #707b8c; 
-
- 
-
     font-size: 12px; 
-
- 
-
     line-height: 1.5; 
 
 } 
@@ -435,17 +289,8 @@
 .form-actions { 
 
     display: flex; 
-
- 
-
     justify-content: space-between; 
-
- 
-
     align-items: center; 
-
- 
-
     gap: 15px; 
 
 } 
@@ -455,29 +300,11 @@
 .back-button { 
 
     padding: 12px 20px; 
-
- 
-
     border: 1px solid #dce1e9; 
-
- 
-
     border-radius: 7px; 
-
- 
-
     color: #596579; 
-
- 
-
     font-size: 13px; 
-
- 
-
     font-weight: 700; 
-
- 
-
     transition: 0.3s; 
 
 } 
@@ -487,9 +314,6 @@
 .back-button:hover { 
 
     border-color: #1769ff; 
-
- 
-
     color: #1769ff; 
 
 } 
@@ -499,51 +323,17 @@
 .continue-button { 
 
     border: none; 
-
- 
-
     cursor: pointer; 
-
- 
-
-    display: flex; 
-
- 
-
+    display: flex;
     align-items: center; 
-
     justify-content: center; 
-
- 
-
     gap: 12px; 
-
- 
-
     padding: 13px 24px; 
-
- 
-
     background-color: #1769ff; 
-
- 
-
     color: #ffffff; 
-
- 
-
     border-radius: 7px; 
-
- 
-
     font-size: 13px; 
-
- 
-
     font-weight: 700; 
-
- 
-
     transition: 0.3s; 
 
 } 
@@ -569,29 +359,11 @@
 .summary-card { 
 
     border: 1px solid #e1e5ec; 
-
- 
-
     border-radius: 14px; 
-
- 
-
     padding: 27px; 
-
- 
-
     background-color: #ffffff; 
-
- 
-
     position: sticky; 
-
- 
-
     top: 105px; 
-
- 
-
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
 
 } 
@@ -601,9 +373,6 @@
 .summary-header { 
 
     padding-bottom: 20px; 
-
- 
-
     border-bottom: 1px solid #eeeeee; 
 
 } 
@@ -613,17 +382,8 @@
 .small-label { 
 
     color: #1769ff; 
-
- 
-
     font-size: 10px; 
-
- 
-
     font-weight: 800; 
-
- 
-
     letter-spacing: 1.4px; 
 
 } 
@@ -633,9 +393,6 @@
 .summary-header h2 { 
 
     font-size: 22px; 
-
- 
-
     margin-top: 5px; 
 
 }
@@ -645,17 +402,8 @@
 .selected-service { 
 
     display: flex; 
-
- 
-
     gap: 13px; 
-
- 
-
-    padding: 20px 0; 
-
- 
-
+    padding: 20px 0;
     border-bottom: 1px solid #eeeeee; 
 
 } 
@@ -665,15 +413,8 @@
 .selected-service img { 
 
     width: 85px; 
-
     height: 75px; 
-
- 
-
     object-fit: cover; 
-
- 
-
     border-radius: 7px; 
 
 } 
@@ -683,9 +424,6 @@
 .selected-service h3 { 
 
     font-size: 14px; 
-
- 
-
     margin: 2px 0 3px; 
 
 } 
@@ -695,13 +433,7 @@
 .selected-service p { 
 
     color: #7b8493; 
-
- 
-
     font-size: 11px; 
-
- 
-
     line-height: 1.4; 
 
 } 
@@ -711,17 +443,8 @@
 .service-category { 
 
     color: #1769ff; 
-
- 
-
     font-size: 9px; 
-
- 
-
     font-weight: 800; 
-
- 
-
     text-transform: uppercase; 
 
 } 
@@ -731,9 +454,6 @@
 .summary-details { 
 
     padding: 17px 0; 
-
- 
-
     border-bottom: 1px solid #eeeeee; 
 
 } 
@@ -743,17 +463,8 @@
 .summary-row { 
 
     display: flex; 
-
- 
-
     justify-content: space-between; 
-
- 
-
     align-items: center; 
-
- 
-
     padding: 7px 0; 
 
 } 
@@ -763,9 +474,6 @@
 .summary-row span { 
 
     color: #7b8493; 
-
- 
-
     font-size: 12px; 
 
 } 
@@ -795,13 +503,7 @@
 .payment-row { 
 
     display: flex; 
-
- 
-
     justify-content: space-between; 
-
- 
-
     align-items: center; 
 
 } 
@@ -811,9 +513,6 @@
 .payment-row span { 
 
     color: #596579; 
-
- 
-
     font-size: 13px; 
 
 } 
@@ -823,9 +522,6 @@
 .payment-row strong { 
 
     font-size: 17px; 
-
- 
-
     color: #172033; 
 
 } 
@@ -835,17 +531,8 @@
 .payment-row.deposit { 
 
     margin-top: 10px; 
-
- 
-
     padding: 12px; 
-
- 
-
     background-color: #eef4ff; 
-
- 
-
     border-radius: 7px; 
 
 } 
@@ -855,9 +542,6 @@
 .payment-row.deposit span { 
 
     color: #1769ff; 
-
- 
-
     font-weight: 700; 
 
 } 
@@ -867,9 +551,6 @@
 .payment-row.deposit strong { 
 
     color: #1769ff; 
-
- 
-
     font-size: 20px; 
 
 } 
@@ -879,17 +560,8 @@
 .payment-summary > p { 
 
     color: #8a93a1; 
-
- 
-
     font-size: 10px; 
-
- 
-
     margin-top: 10px; 
-
- 
-
     line-height: 1.5; 
 
 }
@@ -900,29 +572,11 @@
 .secure-box { 
 
     display: flex; 
-
- 
-
     align-items: center; 
-
- 
-
     gap: 10px; 
-
- 
-
     padding: 14px; 
-
- 
-
     background-color: #f5faf7; 
-
- 
-
     border: 1px solid #dcefe3; 
-
- 
-
     border-radius: 8px; 
 
 } 
@@ -940,13 +594,7 @@
 .secure-box strong { 
 
     display: block; 
-
- 
-
     font-size: 12px; 
-
- 
-
     color: #247448; 
 
 } 
@@ -956,13 +604,7 @@
 .secure-box p { 
 
     color: #729080; 
-
- 
-
     font-size: 10px; 
-
- 
-
     margin-top: 2px; 
 
 }
@@ -992,21 +634,9 @@
     .summary-card { 
 
         position: relative; 
-
- 
-
         top: 0; 
-
- 
-
         max-width: 700px; 
-
- 
-
         width: 100%; 
-
- 
-
         margin: 0 auto; 
 
     } 
@@ -1026,17 +656,8 @@
     .navbar { 
 
         height: auto; 
-
- 
-
         padding: 15px 0; 
-
- 
-
         flex-wrap: wrap; 
-
- 
-
         gap: 15px; 
 
     } 
@@ -1046,17 +667,8 @@
     .nav-links { 
 
         order: 3; 
-
- 
-
         width: 100%; 
-
- 
-
         justify-content: center; 
-
- 
-
         gap: 15px; 
 
     } 
@@ -1122,9 +734,6 @@
     .form-actions { 
 
         flex-direction: column-reverse; 
-
- 
-
         align-items: stretch; 
 
     } 
@@ -1136,9 +745,6 @@
     .continue-button { 
 
         width: 100%; 
-
- 
-
         text-align: center; 
 
     } 
@@ -1148,9 +754,6 @@
     .footer-content { 
 
         grid-template-columns: 1fr; 
-
- 
-
         gap: 30px; 
 
     } 
