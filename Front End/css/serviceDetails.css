@@ -40,3 +40,17 @@
 
     font-size: 16px;
 }
+
+.details-section {
+    padding: 70px 0 90px;
+}
+
+.details-grid {
+    display: grid;
+
+    grid-template-columns: 1.55fr 0.8fr;
+
+    gap: 45px;
+
+    align-items: start;
+}
