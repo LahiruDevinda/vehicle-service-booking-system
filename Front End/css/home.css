@@ -200,7 +200,7 @@
 
 
 
-/*----------------------------------SERVICES----------------------------------------*/
+/*----------------------------------services section----------------------------------------*/
 
 .services-section {
     padding: 90px 0;
@@ -452,4 +452,127 @@
     background-color: #1769ff;
 
     color: #ffffff;
+}
+
+
+/* --------------------------------why choose us section------------------------------ */
+
+.why-section {
+    background-color: #f7f9fc;
+
+    padding: 90px 0;
+}
+
+.why-content {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 70px;
+}
+
+.why-image img {
+    height: 550px;
+    object-fit: cover;
+
+    border-radius: 15px;
+}
+
+.why-text > p {
+    color: #707b8d;
+
+    margin-bottom: 30px;
+}
+
+
+/* Benefits */
+
+.benefit {
+    display: flex;
+
+    gap: 15px;
+
+    margin-bottom: 22px;
+}
+
+.benefit-icon {
+    flex-shrink: 0;
+
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #e6efff;
+
+    color: #1769ff;
+
+    font-weight: bold;
+}
+
+.benefit h3 {
+    font-size: 16px;
+
+    margin-bottom: 3px;
+}
+
+.benefit p {
+    font-size: 13px;
+
+    color: #7a8493;
+}
+
+
+/* --------------------------------Book now section-------------------------------- */
+
+.book-now-section {
+    padding: 60px 0;
+
+    background-color: #1769ff;
+
+    color: #ffffff;
+}
+
+.book-content {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-now-section h2 {
+    font-size: 30px;
+
+    margin-bottom: 5px;
+}
+
+.book-now-section p {
+    opacity: 0.85;
+}
+
+.book-now-section-button {
+    background-color: #ffffff;
+
+    color: #1769ff;
+
+    padding: 13px 25px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.book-now-section-button:hover {
+    background-color: #eaf1ff;
 }

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
         <a href="#contact">Contact</a>
       </nav>
 
-      <a href="#services" class="nav-button">
+      <a href="booking.html" class="nav-button">
         Book a Service
       </a>
 
@@ -95,8 +96,7 @@
 
         <div class="image-card">
 
-          <img src="images/homePage.jpeg"
-            alt="Vehicle being serviced">
+          <img src="images/homePage.jpeg" alt="Vehicle being serviced">
 
           <div class="floating-card">
 
@@ -121,263 +121,414 @@
 
 
   <section class="services-section" id="services">
-        <div class="container">
+    <div class="container">
 
-            <div class="section-heading">
+      <div class="section-heading">
 
-                <span class="section-tag">
-                    OUR SERVICES
-                </span>
+        <span class="section-tag">
+          OUR SERVICES
+        </span>
 
-                <h2>
-                    Vehicle Services You Can Trust
-                </h2>
+        <h2>
+          Vehicle Services You Can Trust
+        </h2>
 
-                <p>
-                    Choose from our range of professional vehicle
-                    maintenance and repair services.
-                </p>
+        <p>
+          Choose from our range of professional vehicle
+          maintenance and repair services.
+        </p>
+
+      </div>
+
+
+      <!-- Search and Filter -->
+
+      <div class="service-tools">
+
+        <div class="search-box">
+          <span>⌕</span>
+
+          <input type="text" placeholder="Search services...">
+        </div>
+
+
+        <select class="category-filter">
+
+          <option value="all">
+            All Categories
+          </option>
+
+          <option value="maintenance">
+            Routine Maintenance
+          </option>
+
+          <option value="repair">
+            Repairs
+          </option>
+
+          <option value="cleaning">
+            Cleaning
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <!-- Service Cards -->
+
+      <div class="services-grid">
+
+
+        <!-- Service 01 -->
+
+        <article class="service-card">
+
+          <div class="service-image">
+
+            <img src="images/full engine.jpg" alt="Engine service">
+
+            <span class="service-category">
+              Maintenance
+            </span>
+
+          </div>
+
+          <div class="service-content">
+
+            <h3>Full Engine Service</h3>
+
+            <p>
+              Complete engine inspection, oil change,
+              filter replacement and performance check.
+            </p>
+
+            <div class="service-info">
+
+              <span>
+                ⏱ 2 Hours
+              </span>
+
+              <strong>
+                Rs. 10,000
+              </strong>
 
             </div>
 
+            <a href="#" class="service-button">
+              View Details →
+            </a>
 
-            <!-- Search and Filter -->
+          </div>
 
-            <div class="service-tools">
-
-                <div class="search-box">
-                    <span>⌕</span>
-
-                    <input
-                        type="text"
-                        placeholder="Search services..."
-                    >
-                </div>
+        </article>
 
 
-                <select class="category-filter">
+        <!-- Service 02 -->
 
-                    <option value="all">
-                        All Categories
-                    </option>
+        <article class="service-card">
 
-                    <option value="maintenance">
-                        Routine Maintenance
-                    </option>
+          <div class="service-image">
 
-                    <option value="repair">
-                        Repairs
-                    </option>
+            <img src="images/wheel.jpg" alt="Wheel alignment">
 
-                    <option value="cleaning">
-                        Cleaning
-                    </option>
+            <span class="service-category">
+              Maintenance
+            </span>
 
-                </select>
+          </div>
+
+          <div class="service-content">
+
+            <h3>Wheel Alignment</h3>
+
+            <p>
+              Professional wheel alignment to improve
+              handling, safety and tyre lifespan.
+            </p>
+
+            <div class="service-info">
+
+              <span>
+                ⏱ 1 Hour
+              </span>
+
+              <strong>
+                Rs. 4,500
+              </strong>
 
             </div>
 
+            <a href="#" class="service-button">
+              View Details →
+            </a>
 
-            <!-- Service Cards -->
+          </div>
 
-            <div class="services-grid">
+        </article>
 
 
-                <!-- Service 01 -->
+        <!-- Service 03 -->
 
-                <article class="service-card">
+        <article class="service-card">
 
-                    <div class="service-image">
+          <div class="service-image">
 
-                        <img
-                            src="images/full engine.jpg"
-                            alt="Engine service">
+            <img src="images/ac repair.jpg" alt="Car air conditioning repair">
 
-                        <span class="service-category">
-                            Maintenance
-                        </span>
+            <span class="service-category">
+              Repair
+            </span>
 
-                    </div>
+          </div>
 
-                    <div class="service-content">
+          <div class="service-content">
 
-                        <h3>Full Engine Service</h3>
+            <h3>AC Repair</h3>
 
-                        <p>
-                            Complete engine inspection, oil change,
-                            filter replacement and performance check.
-                        </p>
+            <p>
+              Diagnose and repair vehicle air-conditioning
+              systems for comfortable driving.
+            </p>
 
-                        <div class="service-info">
+            <div class="service-info">
 
-                            <span>
-                                ⏱ 2 Hours
-                            </span>
+              <span>
+                ⏱ 1.5 Hours
+              </span>
 
-                            <strong>
-                                Rs. 10,000
-                            </strong>
-
-                        </div>
-
-                        <a href="#" class="service-button">
-                            View Details →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Service 02 -->
-
-                <article class="service-card">
-
-                    <div class="service-image">
-
-                        <img
-                            src="images/wheel.jpg"
-                            alt="Wheel alignment">
-
-                        <span class="service-category">
-                            Maintenance
-                        </span>
-
-                    </div>
-
-                    <div class="service-content">
-
-                        <h3>Wheel Alignment</h3>
-
-                        <p>
-                            Professional wheel alignment to improve
-                            handling, safety and tyre lifespan.
-                        </p>
-
-                        <div class="service-info">
-
-                            <span>
-                                ⏱ 1 Hour
-                            </span>
-
-                            <strong>
-                                Rs. 4,500
-                            </strong>
-
-                        </div>
-
-                        <a href="#" class="service-button">
-                            View Details →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Service 03 -->
-
-                <article class="service-card">
-
-                    <div class="service-image">
-
-                        <img
-                            src="images/ac repair.jpg"
-                            alt="Car air conditioning repair">
-
-                        <span class="service-category">
-                            Repair
-                        </span>
-
-                    </div>
-
-                    <div class="service-content">
-
-                        <h3>AC Repair</h3>
-
-                        <p>
-                            Diagnose and repair vehicle air-conditioning
-                            systems for comfortable driving.
-                        </p>
-
-                        <div class="service-info">
-
-                            <span>
-                                ⏱ 1.5 Hours
-                            </span>
-
-                            <strong>
-                                Rs. 5,000
-                            </strong>
-
-                        </div>
-
-                        <a href="#" class="service-button">
-                            View Details →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Service 04 -->
-
-                <article class="service-card">
-
-                    <div class="service-image">
-
-                        <img
-                            src="images/clean.jpg"
-                            alt="Car cleaning service">
-
-                        <span class="service-category">
-                            Cleaning
-                        </span>
-
-                    </div>
-
-                    <div class="service-content">
-
-                        <h3>Premium Car Cleaning</h3>
-
-                        <p>
-                            Interior and exterior cleaning to keep your
-                            vehicle looking fresh and clean.
-                        </p>
-
-                        <div class="service-info">
-
-                            <span>
-                                ⏱ 1 Hour
-                            </span>
-
-                            <strong>
-                                Rs. 3,500
-                            </strong>
-
-                        </div>
-
-                        <a href="#" class="service-button">
-                            View Details →
-                        </a>
-
-                    </div>
-
-                </article>
-
+              <strong>
+                Rs. 5,000
+              </strong>
 
             </div>
+
+            <a href="#" class="service-button">
+              View Details →
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- Service 04 -->
+
+        <article class="service-card">
+
+          <div class="service-image">
+
+            <img src="images/clean.jpg" alt="Car cleaning service">
+
+            <span class="service-category">
+              Cleaning
+            </span>
+
+          </div>
+
+          <div class="service-content">
+
+            <h3>Premium Car Cleaning</h3>
+
+            <p>
+              Interior and exterior cleaning to keep your
+              vehicle looking fresh and clean.
+            </p>
+
+            <div class="service-info">
+
+              <span>
+                ⏱ 1 Hour
+              </span>
+
+              <strong>
+                Rs. 3,500
+              </strong>
+
+            </div>
+
+            <a href="#" class="service-button">
+              View Details →
+            </a>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================== -->
+
+
+  <section class="why-section" id="about">
+
+    <div class="container why-content">
+
+      <div class="why-image">
+
+        <img src="images/man.png" alt="Professional vehicle technician">
+
+      </div>
+
+
+      <div class="why-text">
+
+        <span class="section-tag">
+          WHY CHOOSE US
+        </span>
+
+        <h2>
+          Reliable Service For Every Vehicle
+        </h2>
+
+        <p>
+          We provide reliable vehicle maintenance and repair
+          services using professional equipment and experienced
+          technicians.
+        </p>
+
+
+        <div class="benefit">
+
+          <div class="benefit-icon">
+            ✓
+          </div>
+
+          <div>
+            <h3>Experienced Technicians</h3>
+            <p>
+              Skilled professionals who understand your vehicle.
+            </p>
+          </div>
 
         </div>
-    </section>
 
 
- <!-- ============================================================== -->
+        <div class="benefit">
+
+          <div class="benefit-icon">
+            ✓
+          </div>
+
+          <div>
+            <h3>Transparent Pricing</h3>
+            <p>
+              Clear service prices with no hidden charges.
+            </p>
+          </div>
+
+        </div>
 
 
- 
+        <div class="benefit">
 
+          <div class="benefit-icon">
+            ✓
+          </div>
+
+          <div>
+            <h3>Easy Online Booking</h3>
+            <p>
+              Book your vehicle service anytime through our website.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ============================================================== -->
+
+
+  <section class="book-now-section">
+    <div class="container book-content">
+
+      <div>
+        <h2>
+          Ready to Service Your Vehicle?
+        </h2>
+
+        <p>
+          Book your service appointment today.
+        </p>
+      </div>
+
+      <a href="booking.html" class="book-now-section-button">
+        Book Now →
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================== -->
+
+
+  <footer class="footer" id="contact">
+
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="logo">
+          <span class="logo-icon">⚙</span>
+          <span>AutoCare</span>
+        </a>
+
+        <p>
+          Professional vehicle maintenance and repair
+          services you can trust.
+        </p>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Quick Links</h3>
+
+        <a href="index.html">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>Contact</h3>
+
+        <p>📞 +94 77 123 4567</p>
+        <p>✉ info@autocare.lk</p>
+        <p>📍 Colombo, Sri Lanka</p>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 AutoCare Vehicle Service Center. All Rights Reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script src="../Backend/navigate.js"></script>
 </body>
 
 </html>
