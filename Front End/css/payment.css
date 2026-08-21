@@ -50,3 +50,43 @@
     align-items: start;
 
 }
+
+.payment-card {
+    border: 1px solid #e4e8ef;
+    border-radius: 14px;
+
+    padding: 35px;
+
+    background-color: #ffffff;
+
+}
+
+.payment-header {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 28px;
+
+    margin-bottom: 28px;
+
+}
+
+.section-tag {
+    color: #1769ff;
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+
+}
+
+.payment-header h2 {
+    font-size: 26px;
+    margin: 7px 0;
+
+}
+
+.payment-header p {
+    color: #7a8493;
+    font-size: 13px;
+
+}
