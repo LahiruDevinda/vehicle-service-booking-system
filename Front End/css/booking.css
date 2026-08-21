@@ -728,3 +728,56 @@
 
 
 
+.summary-details { 
+
+    padding: 17px 0; 
+
+ 
+
+    border-bottom: 1px solid #eeeeee; 
+
+} 
+
+ 
+
+.summary-row { 
+
+    display: flex; 
+
+ 
+
+    justify-content: space-between; 
+
+ 
+
+    align-items: center; 
+
+ 
+
+    padding: 7px 0; 
+
+} 
+
+ 
+
+.summary-row span { 
+
+    color: #7b8493; 
+
+ 
+
+    font-size: 12px; 
+
+} 
+
+ 
+
+.summary-row strong { 
+
+    font-size: 12px; 
+
+ 
+
+    color: #172033; 
+
+} 
