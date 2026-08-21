@@ -530,11 +530,9 @@
 }
 
 
-/* =====================================================
-   CTA
-===================================================== */
+/* --------------------------------Book now section-------------------------------- */
 
-.cta {
+.book-now-section {
     padding: 60px 0;
 
     background-color: #1769ff;
@@ -542,24 +540,24 @@
     color: #ffffff;
 }
 
-.cta-content {
+.book-content {
     display: flex;
 
     align-items: center;
     justify-content: space-between;
 }
 
-.cta h2 {
+.book-now-section h2 {
     font-size: 30px;
 
     margin-bottom: 5px;
 }
 
-.cta p {
+.book-now-section p {
     opacity: 0.85;
 }
 
-.cta-button {
+.book-now-section-button {
     background-color: #ffffff;
 
     color: #1769ff;
@@ -575,6 +573,6 @@
     transition: 0.3s;
 }
 
-.cta-button:hover {
+.book-now-section-button:hover {
     background-color: #eaf1ff;
 }
