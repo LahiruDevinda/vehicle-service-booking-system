@@ -407,3 +407,74 @@
     margin-top: 5px;
 
 }
+
+.selected-service {
+    display: flex;
+    gap: 13px;
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+.selected-service img {
+    width: 85px;
+    height: 75px;
+    object-fit: cover;
+
+    border-radius: 7px;
+
+}
+
+.service-category {
+    color: #1769ff;
+    font-size: 9px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+}
+
+.selected-service h3 {
+    font-size: 14px;
+    margin: 2px 0 3px;
+
+}
+
+.selected-service p {
+    color: #7b8493;
+    font-size: 11px;
+
+    line-height: 1.4;
+
+}
+
+
+.booking-details {
+    padding: 17px 0;
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+.detail-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 7px 0;
+
+}
+
+.detail-row span {
+    color: #7b8493;
+    font-size: 12px;
+
+}
+
+.detail-row strong {
+    color: #172033;
+    font-size: 12px;
+
+}
