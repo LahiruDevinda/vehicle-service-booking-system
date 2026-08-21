@@ -4,6 +4,8 @@
     color: #ffffff;
 
     padding-top: 55px;
+
+    scroll-behavior: smooth;
 }
 
 .footer-content {
@@ -18,7 +20,7 @@
 
 .footer .logo {
     color: #ffffff;
-
+    scroll-behavior:auto;
     margin-bottom: 15px;
 }
 
@@ -47,7 +49,7 @@
 .footer-column a,
 .footer-column p {
     color: #9da7b7;
-
+    scroll-behavior: smooth;
     font-size: 13px;
 }
 
