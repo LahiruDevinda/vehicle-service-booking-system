@@ -173,3 +173,92 @@
     margin-top: 2px;
 
 }
+
+.card-section,
+.billing-section {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    color: #384357;
+    font-size: 13px;
+
+    font-weight: 700;
+
+}
+
+.form-group label span {
+    color: #e23b3b;
+}
+
+.form-group input {
+    width: 100%;
+    height: 45px;
+
+    border: 1px solid #dce1e9;
+
+    border-radius: 7px;
+
+    padding: 0 13px;
+
+    outline: none;
+
+    font-size: 13px;
+
+    transition: 0.2s;
+
+}
+
+.form-group input::placeholder {
+    color: #a0a8b4;
+}
+
+.form-group input:focus {
+    border-color: #1769ff;
+    box-shadow: 0 0 0 3px rgba(23, 105, 255, 0.08);
+
+}
+
+/* Card number wrapper */
+.card-input-wrapper {
+    position: relative;
+}
+
+.card-input-wrapper input {
+    padding-right: 48px;
+}
+
+.card-symbol {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    font-size: 18px;
+
+}
