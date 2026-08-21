@@ -1,0 +1,199 @@
+.hero {
+    background-color: #f5f8ff;
+    padding: 90px 0;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 70px;
+}
+
+
+/* Hero text */
+
+.hero-tag {
+    display: inline-block;
+
+    background-color: #e5efff;
+    color: #1769ff;
+
+    padding: 7px 14px;
+
+    border-radius: 30px;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    line-height: 1.12;
+
+    letter-spacing: -1.5px;
+
+    margin-bottom: 22px;
+
+    color: #142033;
+}
+
+.hero h1 span {
+    color: #1769ff;
+    display: block;
+}
+
+.hero-text > p {
+    max-width: 550px;
+
+    color: #687386;
+
+    font-size: 17px;
+
+    margin-bottom: 30px;
+}
+
+
+/* Hero buttons */
+
+.hero-buttons {
+    display: flex;
+    gap: 14px;
+
+    margin-bottom: 45px;
+}
+
+.primary-button,
+.secondary-button {
+    padding: 13px 23px;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.primary-button {
+    background-color: #1769ff;
+    color: #ffffff;
+}
+
+.primary-button:hover {
+    background-color: #0e55d4;
+}
+
+.secondary-button {
+    background-color: #ffffff;
+    color: #172033;
+
+    border: 1px solid #d9dfeb;
+}
+
+.secondary-button:hover {
+    border-color: #1769ff;
+    color: #1769ff;
+}
+
+
+/* Hero statistics */
+
+.hero-stats {
+    display: flex;
+    gap: 35px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat strong {
+    font-size: 22px;
+    color: #172033;
+}
+
+.stat span {
+    font-size: 12px;
+    color: #7a8495;
+}
+
+
+/* Hero image */
+
+.hero-image {
+    position: relative;
+}
+
+.image-card {
+    position: relative;
+
+    border-radius: 18px;
+
+    overflow: visible;
+}
+
+.image-card > img {
+    height: 480px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+}
+
+
+/* Floating card */
+
+.floating-card {
+    position: absolute;
+
+    left: -30px;
+    bottom: 30px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    background-color: #ffffff;
+
+    padding: 15px 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+.check-icon {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #e5f8ed;
+    color: #16a05d;
+
+    font-weight: bold;
+}
+
+.floating-card strong {
+    display: block;
+
+    font-size: 14px;
+}
+
+.floating-card span {
+    display: block;
+
+    font-size: 11px;
+    color: #7b8492;
+}
