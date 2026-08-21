@@ -274,4 +274,33 @@
     font-size: 11px;
 }
 
+.service-information {
+    padding: 20px 0;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.info-row {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 8px 0;
+}
+
+.info-label {
+    color: #7a8493;
+
+    font-size: 13px;
+}
+
+.info-row strong {
+    color: #172033;
+
+    font-size: 13px;
+
+    text-align: right;
+}
+
 
