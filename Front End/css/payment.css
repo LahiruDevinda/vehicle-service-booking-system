@@ -594,3 +594,94 @@
     font-weight: bold;
 
 }
+
+@media (max-width: 950px) {
+    .nav-links {
+        gap: 18px;
+    }
+
+    .payment-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-card {
+        position: relative;
+
+        top: 0;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        height: auto;
+
+        padding: 15px 0;
+
+        flex-wrap: wrap;
+
+        gap: 15px;
+    }
+
+    .nav-links {
+        order: 3;
+
+        width: 100%;
+
+        justify-content: center;
+
+        gap: 15px;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .page-header {
+        padding: 40px 0;
+    }
+
+    .page-header h1 {
+        font-size: 31px;
+    }
+
+    .payment-section {
+        padding: 45px 0 60px;
+    }
+
+    .payment-card {
+        padding: 22px;
+    }
+
+    .payment-methods {
+        grid-template-columns: 1fr;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .full-width {
+        grid-column: auto;
+    }
+
+    .payment-actions {
+        flex-direction: column-reverse;
+
+        align-items: stretch;
+    }
+
+    .back-button,
+    .pay-button {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+}
