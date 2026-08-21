@@ -124,4 +124,56 @@
     margin-bottom: 0;
 }
 
+.included-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+}
+
+.included-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+}
+
+.included-icon {
+    flex-shrink: 0;
+
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #e8f7ef;
+
+    color: #15965a;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+.included-item h3 {
+    font-size: 14px;
+
+    color: #172033;
+
+    margin-bottom: 2px;
+}
+
+.included-item p {
+    color: #7b8493;
+
+    font-size: 12px;
+}
+
 
