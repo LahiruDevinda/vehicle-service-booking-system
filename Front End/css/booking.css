@@ -566,3 +566,165 @@
 
 
 
+.summary-card { 
+
+    border: 1px solid #e1e5ec; 
+
+ 
+
+    border-radius: 14px; 
+
+ 
+
+    padding: 27px; 
+
+ 
+
+    background-color: #ffffff; 
+
+ 
+
+    position: sticky; 
+
+ 
+
+    top: 105px; 
+
+ 
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
+
+} 
+
+ 
+
+.summary-header { 
+
+    padding-bottom: 20px; 
+
+ 
+
+    border-bottom: 1px solid #eeeeee; 
+
+} 
+
+ 
+
+.small-label { 
+
+    color: #1769ff; 
+
+ 
+
+    font-size: 10px; 
+
+ 
+
+    font-weight: 800; 
+
+ 
+
+    letter-spacing: 1.4px; 
+
+} 
+
+ 
+
+.summary-header h2 { 
+
+    font-size: 22px; 
+
+ 
+
+    margin-top: 5px; 
+
+}
+
+
+
+.selected-service { 
+
+    display: flex; 
+
+ 
+
+    gap: 13px; 
+
+ 
+
+    padding: 20px 0; 
+
+ 
+
+    border-bottom: 1px solid #eeeeee; 
+
+} 
+
+ 
+
+.selected-service img { 
+
+    width: 85px; 
+
+    height: 75px; 
+
+ 
+
+    object-fit: cover; 
+
+ 
+
+    border-radius: 7px; 
+
+} 
+
+ 
+
+.selected-service h3 { 
+
+    font-size: 14px; 
+
+ 
+
+    margin: 2px 0 3px; 
+
+} 
+
+ 
+
+.selected-service p { 
+
+    color: #7b8493; 
+
+ 
+
+    font-size: 11px; 
+
+ 
+
+    line-height: 1.4; 
+
+} 
+
+ 
+
+.service-category { 
+
+    color: #1769ff; 
+
+ 
+
+    font-size: 9px; 
+
+ 
+
+    font-weight: 800; 
+
+ 
+
+    text-transform: uppercase; 
+
+} 
+
+
+
