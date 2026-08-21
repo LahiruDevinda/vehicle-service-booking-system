@@ -1,3 +1,4 @@
+/* Page Header */
 .page-header {
     background-color: #f5f8ff;
     padding: 50px 0 55px;
@@ -34,7 +35,7 @@
     font-size: 15px;
 
 }
-
+/* Payment Layout */
 .payment-section {
     padding: 65px 0 90px;
     background-color: #ffffff;
@@ -50,7 +51,7 @@
     align-items: start;
 
 }
-
+/* Payment Card */
 .payment-card {
     border: 1px solid #e4e8ef;
     border-radius: 14px;
@@ -90,7 +91,7 @@
     font-size: 13px;
 
 }
-
+/*Payment Method */
 .payment-method-section {
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -173,7 +174,7 @@
     margin-top: 2px;
 
 }
-
+/* Card Form */
 .card-section,
 .billing-section {
     padding-bottom: 30px;
@@ -262,7 +263,7 @@
     font-size: 18px;
 
 }
-
+/* Security Message */
 .security-message {
     display: flex;
     align-items: center;
@@ -307,7 +308,7 @@
     font-size: 11px;
 
 }
-
+/*Payment Actions */
 .payment-actions {
     display: flex;
     justify-content: space-between;
@@ -369,7 +370,7 @@
 .pay-button span {
     font-size: 17px;
 }
-
+/* Summary Card */
 .summary-card {
     position: sticky;
     top: 105px;
@@ -407,7 +408,7 @@
     margin-top: 5px;
 
 }
-
+/* Selected Service */
 .selected-service {
     display: flex;
     gap: 13px;
@@ -450,8 +451,7 @@
     line-height: 1.4;
 
 }
-
-
+/* Booking Details */
 .booking-details {
     padding: 17px 0;
     border-bottom: 1px solid #eeeeee;
@@ -478,7 +478,7 @@
     font-size: 12px;
 
 }
-
+/* Price Summary */
 .price-summary {
     padding: 20px 0;
 }
@@ -521,7 +521,7 @@
     font-size: 22px;
 
 }
-
+/* Remaining Time */
 .remaining-box {
     background-color: #eef4ff;
     border-radius: 8px;
@@ -555,7 +555,7 @@
     line-height: 1.5;
 
 }
-
+/* Trust Section */
 .trust-section {
     border-top: 1px solid #eeeeee;
     padding-top: 18px;
@@ -594,7 +594,7 @@
     font-weight: bold;
 
 }
-
+/* Media Queries */
 @media (max-width: 950px) {
     .nav-links {
         gap: 18px;
