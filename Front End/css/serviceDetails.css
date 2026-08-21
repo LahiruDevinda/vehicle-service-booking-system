@@ -226,4 +226,52 @@
     font-size: 12px;
 }
 
+.booking-card {
+    background-color: #ffffff;
+
+    border: 1px solid #e1e5ec;
+
+    border-radius: 14px;
+
+    padding: 28px;
+
+    position: sticky;
+
+    top: 105px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.booking-top {
+    padding-bottom: 23px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.small-label {
+    color: #7a8493;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+.price {
+    color: #1769ff;
+
+    font-size: 32px;
+
+    font-weight: 800;
+
+    margin-top: 5px;
+}
+
+.price-note {
+    color: #8a93a1;
+
+    font-size: 11px;
+}
+
 
