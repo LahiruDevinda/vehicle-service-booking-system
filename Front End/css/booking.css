@@ -366,3 +366,203 @@
 
 
 
+.terms { 
+
+    margin-bottom: 25px; 
+
+} 
+
+ 
+
+.checkbox-container { 
+
+    display: flex; 
+
+ 
+
+    align-items: flex-start; 
+
+ 
+
+    gap: 10px; 
+
+ 
+
+    cursor: pointer; 
+
+} 
+
+ 
+
+.checkbox-container input { 
+
+    width: 17px; 
+
+    height: 17px; 
+
+ 
+
+    margin-top: 2px; 
+
+ 
+
+    accent-color: #1769ff; 
+
+ 
+
+    cursor: pointer; 
+
+} 
+
+ 
+
+.terms-text { 
+
+    color: #707b8c; 
+
+ 
+
+    font-size: 12px; 
+
+ 
+
+    line-height: 1.5; 
+
+} 
+
+
+
+.form-actions { 
+
+    display: flex; 
+
+ 
+
+    justify-content: space-between; 
+
+ 
+
+    align-items: center; 
+
+ 
+
+    gap: 15px; 
+
+} 
+
+ 
+
+.back-button { 
+
+    padding: 12px 20px; 
+
+ 
+
+    border: 1px solid #dce1e9; 
+
+ 
+
+    border-radius: 7px; 
+
+ 
+
+    color: #596579; 
+
+ 
+
+    font-size: 13px; 
+
+ 
+
+    font-weight: 700; 
+
+ 
+
+    transition: 0.3s; 
+
+} 
+
+ 
+
+.back-button:hover { 
+
+    border-color: #1769ff; 
+
+ 
+
+    color: #1769ff; 
+
+} 
+
+ 
+
+.continue-button { 
+
+    border: none; 
+
+ 
+
+    cursor: pointer; 
+
+ 
+
+    display: flex; 
+
+ 
+
+    align-items: center; 
+
+    justify-content: center; 
+
+ 
+
+    gap: 12px; 
+
+ 
+
+    padding: 13px 24px; 
+
+ 
+
+    background-color: #1769ff; 
+
+ 
+
+    color: #ffffff; 
+
+ 
+
+    border-radius: 7px; 
+
+ 
+
+    font-size: 13px; 
+
+ 
+
+    font-weight: 700; 
+
+ 
+
+    transition: 0.3s; 
+
+} 
+
+ 
+
+.continue-button:hover { 
+
+    background-color: #0e55d4; 
+
+} 
+
+ 
+
+.continue-button span { 
+
+    font-size: 17px; 
+
+} 
+
+
+
