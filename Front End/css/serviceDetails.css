@@ -176,4 +176,54 @@
     font-size: 12px;
 }
 
+.notice-card {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 14px;
+
+    background-color: #fff8e8;
+
+    border: 1px solid #f3dfaa;
+
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+.notice-icon {
+    flex-shrink: 0;
+
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #f5bd35;
+
+    color: #ffffff;
+
+    font-weight: bold;
+}
+
+.notice-card h3 {
+    font-size: 14px;
+
+    margin-bottom: 4px;
+
+    color: #614b13;
+}
+
+.notice-card p {
+    color: #806b35;
+
+    font-size: 12px;
+}
+
 
