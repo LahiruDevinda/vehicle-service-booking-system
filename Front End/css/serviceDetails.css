@@ -92,5 +92,36 @@
     text-transform: uppercase;
 }
 
+.description-card,
+.included-card {
+    border: 1px solid #e7eaf0;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+}
+
+.description-card h2,
+.included-card h2 {
+    font-size: 24px;
+
+    margin-bottom: 17px;
+
+    color: #172033;
+}
+
+.description-card p {
+    color: #697486;
+
+    font-size: 14px;
+
+    margin-bottom: 14px;
+}
+
+.description-card p:last-child {
+    margin-bottom: 0;
+}
 
 
