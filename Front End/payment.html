@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment</title>
+    <title>Payment | AutoCare</title>
     <link rel="stylesheet" href="css/payment.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-
 </head>
 
 <body>
@@ -53,8 +52,8 @@
     <main class="payment-section">
         <div class="container payment-layout">
 
-            <!-- ================= LEFT SIDE ================= -->
-            <div class="payment-card">
+            <!-- ================= LEFT SIDE (FORM) ================= -->
+            <form id="paymentForm" action="../Backend/savePayment.php" method="POST" class="payment-card">
                 <div class="payment-header">
                     <span class="section-tag">PAYMENT INFORMATION</span>
                     <h2>Pay Booking Deposit</h2>
@@ -143,12 +142,12 @@
                 <div class="payment-actions">
                     <a id="back-button" href="booking.html" class="back-button">← Back to Booking</a>
 
-                    <button type="button" id="pay-button" class="pay-button">
+                    <button type="submit" id="pay-button" class="pay-button">
                         Pay <span id="pay-btn-amount">Rs. 2,000</span>
                         <span>→</span>
                     </button>
                 </div>
-            </div>
+            </form>
 
             <!-- ================= RIGHT SUMMARY ================= -->
             <aside class="summary-card">
@@ -258,7 +257,96 @@
         </div>
     </footer>
 
+    <script>
+        const servicesData = {
+            "full-engine": {
+                name: "Full Engine Service",
+                desc: "Complete engine inspection and maintenance.",
+                category: "Maintenance",
+                image: "images/full engine.jpg",
+                price: "Rs. 10,000",
+                rawPrice: 10000,
+                deposit: "Rs. 2,000",
+                rawDeposit: 2000
+            },
+            "wheel-alignment": {
+                name: "Wheel Alignment",
+                desc: "Professional wheel alignment to improve handling and safety.",
+                category: "Maintenance",
+                image: "images/wheel.jpg",
+                price: "Rs. 4,500",
+                rawPrice: 4500,
+                deposit: "Rs. 1,000",
+                rawDeposit: 1000
+            },
+            "ac-repair": {
+                name: "AC Repair",
+                desc: "Diagnose and repair vehicle air-conditioning systems.",
+                category: "Repair",
+                image: "images/ac repair.jpg",
+                price: "Rs. 5,000",
+                rawPrice: 5000,
+                deposit: "Rs. 1,000",
+                rawDeposit: 1000
+            },
+            "car-cleaning": {
+                name: "Premium Car Cleaning",
+                desc: "Interior and exterior cleaning to keep your vehicle fresh.",
+                category: "Cleaning",
+                image: "images/clean.jpg",
+                price: "Rs. 3,500",
+                rawPrice: 3500,
+                deposit: "Rs. 800",
+                rawDeposit: 800
+            }
+        };
 
+        const urlParams = new URLSearchParams(window.location.search);
+        const serviceKey = urlParams.get('service') || 'full-engine';
+        const data = servicesData[serviceKey] || servicesData['full-engine'];
+
+        const vehicleModel = urlParams.get('vehicleModel') || 'Toyota Aqua';
+        const licensePlate = urlParams.get('licensePlate') || 'ABC-1234';
+        const bookingDate = urlParams.get('bookingDate') || '25 Aug 2026';
+        const timeSlot = urlParams.get('timeSlot') || '10:00 AM';
+
+        document.getElementById('summary-img').src = data.image;
+        document.getElementById('summary-img').alt = data.name;
+        document.getElementById('summary-category').textContent = data.category;
+        document.getElementById('summary-name').textContent = data.name;
+        document.getElementById('summary-desc').textContent = data.desc;
+        
+        document.getElementById('summary-vehicle').textContent = vehicleModel;
+        document.getElementById('summary-plate').textContent = licensePlate.toUpperCase();
+        document.getElementById('summary-date').textContent = bookingDate;
+        document.getElementById('summary-time').textContent = timeSlot;
+
+        document.getElementById('summary-price').textContent = data.price;
+        document.getElementById('summary-deposit').textContent = data.deposit;
+        document.getElementById('summary-total').textContent = data.deposit;
+        
+        const remainingBalance = data.rawPrice - data.rawDeposit;
+        document.getElementById('summary-balance').textContent = `Rs. ${remainingBalance.toLocaleString()}`;
+        document.getElementById('pay-btn-amount').textContent = data.deposit;
+
+        document.getElementById('back-button').href = `booking.html?service=${serviceKey}`;
+        document.getElementById('breadcrumb-booking').href = `booking.html?service=${serviceKey}`;
+
+        const form = document.getElementById('paymentForm');
+        form.action = `../Backend/savePayment.php${window.location.search}`;
+
+        const cardInput = document.getElementById('cardNumber');
+        cardInput.addEventListener('input', function (e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 16) value = value.substring(0, 16);
+            let formattedValue = '';
+            for (let i = 0; i < value.length; i++) {
+                if (i > 0 && i % 4 === 0) formattedValue += ' ';
+                formattedValue += value[i];
+            }
+            e.target.value = formattedValue;
+        });
+    </script>
 </body>
 
 </html>
