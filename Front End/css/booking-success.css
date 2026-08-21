@@ -45,3 +45,107 @@
     font-size: 14px;
 }
 
+.booking-id-box {
+    max-width: 400px;
+    margin: 0 auto 30px;
+    padding: 18px;
+    background-color: #eef4ff;
+    border: 1px solid #d5e3ff;
+    border-radius: 10px;
+}
+
+.booking-id-box span {
+    display: block;
+    color: #6f7a8e;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.booking-id-box strong {
+    display: block;
+    color: #1769ff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 4px 0;
+}
+
+.booking-id-box p {
+    color: #8a93a1;
+    font-size: 10px;
+}
+
+.confirmation-card {
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #e1e5ec;
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+    margin-bottom: 22px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.small-label {
+    color: #1769ff;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+}
+
+.card-header h2 {
+    font-size: 22px;
+    margin-top: 4px;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7f7ed;
+    color: #15965a;
+    padding: 7px 13px;
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.service-details {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 22px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.service-details img {
+    width: 100px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service-category {
+    color: #1769ff;
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.service-details h3 {
+    font-size: 16px;
+    margin: 3px 0;
+}
+
+.service-details p {
+    color: #7b8493;
+    font-size: 12px;
+}
